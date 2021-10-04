@@ -1,11 +1,11 @@
 {
     "name": "justoverclock/feautured-discussions-widget",
-    "description": "Add feautured discussions widget for Feautured Discussions extension",
+    "description": "Add featured discussions widget for Featured Discussions extension",
     "keywords": [
-        "feautured discussions widget",
+        "featured discussions widget",
         "afrux",
         "widget",
-        "feautured"
+        "featured"
     ],
     "type": "flarum-extension",
     "license": "MIT",
@@ -24,6 +24,12 @@
             "role": "Developer"
         }
     ],
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.paypal.com/donate?hosted_button_id=25WSH565TJCLE"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Justoverclock\\FeauturedDiscussionsWidget\\": "src/"
@@ -31,7 +37,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Feautured Discussions Widget",
+            "title": "Featured Discussions Widget",
             "category": "",
             "icon": {
                 "name": "fas fa-thumbtack",

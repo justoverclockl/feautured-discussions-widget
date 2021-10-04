@@ -32,7 +32,6 @@ export default class FeauturedDiscussionsWidget extends Widget {
       })
       .then((results) => {
         this.feauturedDisc = results;
-        console.log(results)
         this.loading = false;
         m.redraw();
       });
